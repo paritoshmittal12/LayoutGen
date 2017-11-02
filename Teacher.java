@@ -177,7 +177,7 @@ public class Teacher {
     */
     static Map_element[] connectAndCompute()
     {
-          String serverName = "172.16.114.17";
+          String serverName = "ServerIp";
           int port = Integer.parseInt("8080");
           Map_element[] finalMap = new Map_element[studentCount];
           try {

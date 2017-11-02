@@ -292,7 +292,7 @@ public class Server {
         Connection con = null;
 	    String url = "jdbc:mysql://localhost/PL?useSSL=false";
 	    String user = "root";
-	    String password = "m";
+	    String password = "pass";
 	    try {
 	        Class.forName("com.mysql.jdbc.Driver");
 	        con = DriverManager.getConnection(url,user,password);
